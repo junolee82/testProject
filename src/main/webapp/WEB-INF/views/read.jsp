@@ -60,7 +60,7 @@ table, tr, td {border: 1px solid black;	border-collapse: collapse;}
 		<p>
 			<a href="modify?pNo=${read.pNo }">[수정]</a>
 			<a href="#" id="delete">[삭제]</a>
-			<a href="/listAll">[돌아가기]</a>
+			<a href="listAll">[돌아가기]</a>
 		</p>
 		
 	</div>

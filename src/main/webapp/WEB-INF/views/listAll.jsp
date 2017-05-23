@@ -26,7 +26,7 @@ table, tr, td {border: 1px solid black;	border-collapse: collapse;}
 				</tr>
 			<c:forEach var="listAll" items="${listAll }">
 				<tr>
-					<td><a href="/read?pNo=${listAll.pNo }">${listAll.pName }</a></td>
+					<td><a href="read?pNo=${listAll.pNo }">${listAll.pName }</a></td>
 					<td>
 						<fmt:formatDate value="${listAll.startDate }" pattern="yyyy-MM-dd"/>
 					</td>

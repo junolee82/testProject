@@ -1,5 +1,6 @@
 package com.test.domain;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class BoardVo {
@@ -25,10 +26,21 @@ public class BoardVo {
 	public Date getStartDate() {
 		return startDate;
 	}
+	
+	public String getSDate() {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");	
+		return sdf.format(startDate); 
+	}
 
 	public Date getEndDate() {
 		return endDate;
 	}
+	
+	public String getEDate() {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		return sdf.format(endDate);
+	}
+	
 
 	public String getpState() {
 		return pState;

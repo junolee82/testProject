@@ -37,11 +37,11 @@ label {text-align: center; width: 150px; float: left; padding-left: 28%;}
 			</p>
 			<p>
 				<label for="">시작 날짜 </label>
-				<input type="date" name="startDateVal" value="${read.startDate }"/>
+				<input type="date" name="startDateVal" value="${read.SDate }"/>
 			</p>
 			<p>
 				<label for="">마감 날짜 </label>
-				<input type="date" name="endDateVal" value="${read.endDate }"/>
+				<input type="date" name="endDateVal" value="${read.EDate }"/>
 			</p>
 			<p>
 				<label for="">상태 </label>
